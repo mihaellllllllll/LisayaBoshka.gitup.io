@@ -1,0 +1,238 @@
+.container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header__logo {
+    height: 50px;
+}
+
+.header__bottom {
+    background: #30445c;
+}
+
+
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header__nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 7px;
+}
+
+
+.header__nav-item:hover {
+    background: #182534;
+}
+
+.header__title {
+    font-size: 16px;
+    color: #30445c;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.header__top {
+    display: flex;
+    padding-block: 20px;
+}
+
+.main__card {
+    padding: 50px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.content-half__img img {
+    max-width: 100%;
+}
+
+.content-half {
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.card__img {
+    height: 170px;
+    width: 100%;
+}
+
+.card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery__card {
+    padding: 20px;
+    border-radius: 15px;
+    scale:  0.95;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transition: all 0.25s;
+}
+
+.gallery__card:hover {
+    scale: 1;
+    transition: all 0.25s;
+}
+.card__title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card__btn {
+    display: block;
+    text-align: center;
+    background: #30445c;
+    color:#fff ;
+    font-size: 22px ;
+    margin-top: 20px;
+    font-weight: 600;
+    text-transform: uppercase ;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    letter-spacing: 1px;
+
+}
+
+.footer {
+    background: #b07474;
+
+padding-block: 50px;
+}
+
+table{
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.form__item label {
+    text-transform: uppercase;
+    color: rgba(rgb(151, 111, 111), rgb(80, 111, 133), rgb(98, 98, 102), alpha);
+    font-weight: 600;
+    display: grid;
+
+}
+.form__item input {
+    font-size: 22px;
+    border: none;
+    border-bottom: 4px dashed rgb(39, 73, 83) ;
+    padding: 7px 0;
+}
+.form__item input:focus {
+    border-top: none;
+    border-right: none ;
+    border-left: none;
+}
+
+.form {
+    display: grid;
+    gap: 20px;
+}
+
+.Checkbox__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Checkbox__item input[type=chec] {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 2px solid rgb(140, 148, 132);
+    border-radius: 4px;
+    margin-right: 10px;
+    position: relative;
+    box-sizing: border-box ;
+}
+.Checkbox__item input[type="checkbox"]; :checked::after {
+    content: ☺;
+    color: brown;
+    position: absolute;
+    top: -2px ;
+    left: -2px;
+    border-radius: 50%;
+    font-size: 21;
+    line-height: 17px;
+    box-sizing: border-box;
+}
+
+.Checkbox__item span {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+.radio__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio__item input[type=chec] {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 2px solid rgb(140, 148, 132);
+    border-radius: 4px;
+    margin-right: 10px;
+    position: relative;
+    box-sizing: border-box ;
+}
+.radio__item input[type="checkbox"]; :checked::after {
+    content: ☺;
+    color: brown;
+    position: absolute;
+    top: -2px ;
+    left: -2px;
+    border-radius: 50%;
+    font-size: 21;
+    line-height: 17px;
+    box-sizing: border-box;
+}
+
+.radio__item span {
+    font-size: 16px;
+    line-height: 1.5;
+}
